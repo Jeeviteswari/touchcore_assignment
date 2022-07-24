@@ -1,0 +1,7 @@
+.bg-container {
+  min-height: 130vh;
+  background-color: lightgrey;
+  border-radius: 10px;
+  border: solid 1px grey;
+  padding: 10px;
+}

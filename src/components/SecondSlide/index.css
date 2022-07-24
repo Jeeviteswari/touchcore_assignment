@@ -1,0 +1,91 @@
+.slides-bg-container {
+  width: 100%;
+  min-height: 70vh;
+  border-radius: 8px;
+  background-color: white;
+  border-width: 0px;
+  padding: 30px;
+}
+.bell-icon {
+  text-align: right;
+}
+.retirement-container {
+  display: flex;
+  flex-direction: column;
+}
+.retirement-heading {
+  color: blue;
+  font-family: 'Bree serif';
+  font-weight: bold;
+  font-size: 15px;
+}
+.retirement-para {
+  color: grey;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 20px;
+}
+.stats-card {
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  min-height: 10vh;
+  padding: 10px;
+  border-radius: 8px;
+  border-width: 0px;
+  margin-bottom: 20px;
+}
+.price1-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.hr-line {
+  background-color: blue;
+  width: 100%;
+}
+
+.price2-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+}
+.stats {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+.contributions-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.price {
+  color: black;
+  font-weight: bold;
+}
+.bar-chart {
+  text-align: center;
+}
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  align-items: space-between;
+}
+.icons-container {
+  height: 40px;
+  width: 40px;
+  background-color: blue;
+  border-radius: 4px;
+  display: flex;
+}
+.icons {
+  height: 20px;
+  width: 20px;
+  display: flex;
+  align-self: center;
+  color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+}

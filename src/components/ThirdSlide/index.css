@@ -1,0 +1,50 @@
+.cross-icon {
+  text-align: right;
+}
+.heading {
+  color: black;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 18px;
+}
+.para {
+  color: grey;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 12px;
+}
+.update-button {
+  height: 5vh;
+  width: 90%;
+  background-color: blue;
+  color: white;
+  font-size: 16px;
+  border: 0px;
+  cursor: pointer;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+.circular-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.circle {
+  height: 80px;
+  width: 80px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.progress-bar-container {
+  display: flex;
+  flex-direction: column;
+}
+.progress-bar1 {
+  background-color: aqua;
+  width: 12%;
+}
+.progress-bar2 {
+  background-color: aqua;
+  width: 65%;
+}
