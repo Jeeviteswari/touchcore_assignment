@@ -1,3 +1,17 @@
+.slides-bg-container {
+  width: 100%;
+  min-height: 70vh;
+  border-radius: 8px;
+  background-color: white;
+  border-width: 0px;
+  padding: 30px;
+}
+@media screen and (min-width: 768px) {
+  .slides-bg-container {
+    display: flex;
+    flex-grow: 1;
+  }
+}
 .cross-icon {
   text-align: right;
 }
@@ -47,4 +61,19 @@
 .progress-bar2 {
   background-color: aqua;
   width: 65%;
+}
+.view-link {
+  color: blue;
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.large-container {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .large-container {
+    display: flex;
+    flex-direction: column;
+  }
 }

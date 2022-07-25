@@ -84,6 +84,18 @@ const ThirdSlide = () => (
           <button type="submit" className="update-button">
             Update
           </button>
+
+          <div className="large-container">
+            <h1 className="view-link">View help docs?</h1>
+            <div>
+              <h1 className="para">
+                Are you considering a<br />
+                <span className="heading">Housing Advance</span> <br />
+                Limited time reduced interest
+              </h1>
+            </div>
+          </div>
+          <h1 className="view-link">Learn More</h1>
         </div>
       </div>
     </div>

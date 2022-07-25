@@ -6,8 +6,38 @@
   border-width: 0px;
   padding: 30px;
 }
+@media screen and (min-width: 768px) {
+  .slides-bg-container {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+  }
+}
+.sidebar {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .sidebar-container {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
 .bell-icon {
   text-align: right;
+}
+@media screen and (min-width: 768px) {
+  .bell-icon {
+    display: none;
+  }
 }
 .teddy-image {
   height: 50px;
@@ -104,12 +134,22 @@
   flex-direction: row;
   align-items: space-between;
 }
+@media screen and (min-width: 768px) {
+  .navbar-container {
+    display: none;
+  }
+}
 .icons-container {
   height: 40px;
   width: 40px;
   background-color: blue;
   border-radius: 4px;
   display: flex;
+}
+@media screen and (min-width: 768px) {
+  .icons-container {
+    display: none;
+  }
 }
 .icons {
   height: 20px;

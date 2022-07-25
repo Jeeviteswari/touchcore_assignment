@@ -6,6 +6,12 @@
   border-width: 0px;
   padding: 30px;
 }
+@media screen and (min-width: 768px) {
+  .slides-bg-container {
+    display: flex;
+    flex-grow: 3;
+  }
+}
 .bell-icon {
   text-align: right;
 }
